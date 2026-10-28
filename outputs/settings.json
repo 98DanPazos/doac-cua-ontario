@@ -1,0 +1,10 @@
+{
+  "start_age": 70,
+  "max_age": 100,
+  "cycle_years": 0.25,
+  "discount_rate": 0.015,
+  "wtp": 50000,
+  "gompertz_slope": 0.1046335480170943,
+  "gompertz_intercept": -11.357682473066934,
+  "inflate_2011_to_2025": 1.3694745621351125
+}

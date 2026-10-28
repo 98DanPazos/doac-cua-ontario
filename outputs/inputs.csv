@@ -1,0 +1,51 @@
+name,label,base,low,high,dist,a,b,source
+p_stroke,Stroke rate on warfarin (annual),0.016,0.012,0.02,beta,11794.0,,CADTH WE
+p_tia,TIA rate (annual),0.008,0.006,0.01,beta,11794.0,,CADTH WE
+p_ich,ICH rate on warfarin (annual),0.008,0.006,0.01,beta,11794.0,,CADTH WE
+p_major_bleed,Major bleed rate on warfarin (annual),0.033,0.025,0.041,beta,11794.0,,CADTH WE
+p_minor_bleed,Minor bleed rate (annual),0.164,0.123,0.205,beta,11794.0,,CADTH WE
+p_mi,MI rate (annual),0.006,0.0045,0.0075,beta,11794.0,,CADTH WE
+f_stroke_fatal,Proportion of first strokes fatal,0.237,0.18,0.3,beta,186.0,,CADTH WE
+f_stroke_major,Proportion of non-fatal strokes major,0.333,0.25,0.42,beta,117.0,,CADTH WE
+hr_recur_fatal,Increase in fatality of recurrent stroke,1.57,1.21,2.03,lognormal,1.21,2.03,CADTH WE
+f_bleed_fatal,Proportion of major bleeds / ICH fatal,0.084,0.06,0.11,beta,476.0,,CADTH WE
+f_mi_fatal,Proportion of MIs fatal,0.121,0.06,0.2,beta,66.0,,CADTH WE
+rr_stroke_per_decade,Stroke risk per 10 years of age,1.5,1.3,1.7,lognormal,1.3,1.7,CADTH WE
+rr_stroke_prior,Stroke risk after prior stroke/ICH,2.2,1.2,3.5,lognormal,0.78,6.35,CADTH WE
+hr_death_prior_stroke,Mortality after stroke,2.3,2.0,2.7,lognormal,2.0,2.7,CADTH WE
+p_nonvasc_death,Non-vascular death at age 70 (annual),0.033,0.025,0.041,beta,11794.0,,CADTH WE
+or_apx_stroke,Apixaban OR: stroke,0.79,0.65,0.95,lognormal,0.65,0.95,CADTH WE
+or_apx_mi,Apixaban OR: MI,0.88,0.66,1.17,lognormal,0.66,1.17,CADTH WE
+or_apx_ich,Apixaban OR: ICH,0.42,0.3,0.58,lognormal,0.3,0.58,CADTH WE
+or_apx_mb,Apixaban OR: major bleed,0.8,0.68,0.94,lognormal,0.68,0.94,CADTH WE
+rr_asa_stroke,Aspirin RR: stroke,1.62,0.99,2.65,lognormal,0.99,2.65,CADTH WE
+rr_asa_mi,Aspirin RR: MI,1.42,0.84,2.39,lognormal,0.84,2.39,CADTH WE
+rr_asa_ich,Aspirin RR: ICH,0.51,0.16,1.6,lognormal,0.16,1.6,CADTH WE
+rr_asa_minor,Aspirin RR: minor bleed,0.63,0.32,1.22,lognormal,0.32,1.22,CADTH WE
+rr_asa_mb,Aspirin RR: major bleed,1.14,0.47,2.73,lognormal,0.47,2.73,CADTH WE
+rr_asa_tia,Aspirin RR: TIA,1.56,0.86,2.83,lognormal,0.86,2.83,CADTH WE
+u_af,"Utility: AF, no prior event",0.81,0.75,0.87,beta,41.75,,CADTH WE
+u_minor_stroke,Utility: after minor stroke / ICH,0.75,0.67,0.83,beta,115.59,,CADTH WE
+u_rankin_3_4,"Utility: major stroke, Rankin 3-4",0.39,0.32,0.46,beta,178.82,,CADTH WE
+u_rankin_5,"Utility: major stroke, Rankin 5",0.11,0.06,0.16,beta,172.09,,CADTH WE
+p_rankin_5,Share of major strokes at Rankin 5,0.205,0.1,0.31,beta,47.0,,CADTH WE
+dec_per_year_over_70,Utility loss per year over 70,0.00029,0.00025,0.00033,normal,2e-05,,CADTH WE
+dec_mi,Disutility: MI,0.125,0.107,0.143,normal,0.009,,CADTH WE
+dec_major_bleed,Disutility: major bleed,0.092,0.072,0.112,normal,0.01,,CADTH WE
+dec_minor_bleed,Disutility: minor bleed,0.013,0.011,0.015,normal,0.001,,CADTH WE
+dec_tia,Disutility: TIA,0.103,0.087,0.119,normal,0.008,,CADTH WE
+c_stroke_fatal,Cost: fatal stroke,23007.17264386989,17255.37948290242,28758.96580483736,gamma,0.25,,CADTH WE x CPI
+c_stroke_minor,Cost: minor stroke,23007.17264386989,17255.37948290242,28758.96580483736,gamma,0.25,,CADTH WE x CPI
+c_stroke_major,Cost: major stroke (acute),77873.80150125104,58405.35112593828,97342.25187656381,gamma,0.25,,CADTH WE x CPI
+c_tia,Cost: TIA,5883.262718932443,4412.447039199333,7354.078398665553,gamma,0.25,,CADTH WE x CPI
+c_ich,Cost: ICH,22677.129274395327,17007.846955796496,28346.411592994158,gamma,0.25,,CADTH WE x CPI
+c_major_bleed,Cost: major bleed,6014.7322768974145,4511.049207673061,7518.415346121768,gamma,0.25,,CADTH WE x CPI
+c_minor_bleed,Cost: minor bleed,142.4253544620517,106.81901584653878,178.03169307756463,gamma,0.25,,CADTH WE x CPI
+c_mi_fatal,Cost: fatal MI,10067.007506255211,7550.255629691408,12583.759382819015,gamma,0.25,,CADTH WE x CPI
+c_mi_nonfatal,Cost: non-fatal MI,15584.62051709758,11688.465387823186,19480.775646371978,gamma,0.25,,CADTH WE x CPI
+c_lt_major_stroke,Annual cost: after major stroke,26114.51042535446,19585.882819015846,32643.138031693074,gamma,0.25,,CADTH WE x CPI
+c_lt_minor_stroke,Annual cost: after minor stroke / ICH,10813.37114261885,8110.028356964137,13516.713928273562,gamma,0.25,,CADTH WE x CPI
+c_apixaban,"Apixaban 5 mg BID, annual",298.33619999999996,149.16809999999998,1193.3447999999999,fixed,,,"ODB formulary, Oct 2026"
+c_warfarin,"Warfarin 5 mg daily, annual",54.61,27.0,110.0,fixed,,,CADTH WE (2011 ODB)
+c_inr,"INR monitoring, annual (warfarin only)",329.61883236030025,164.80941618015012,494.42824854045034,fixed,,,CADTH WE x CPI
+c_aspirin,"Aspirin, annual",39.04,20.0,60.0,fixed,,,CADTH WE (2011 ODB)

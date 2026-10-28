@@ -1,0 +1,5 @@
+regimen,dosing,unit_price,units_per_day,daily_cost,annual_cost,vs generic apixaban
+"Apixaban 5 mg, generic",1 tablet twice daily,0.4084,2.0,0.8168,298.33619999999996,0.0
+"Edoxaban 60 mg, generic",1 tablet once daily,0.7348,1.0,0.7348,268.3857,-29.950499999999977
+"Apixaban 5 mg, brand (Eliquis)",1 tablet twice daily,1.6336,2.0,3.2672,1193.3447999999999,895.0085999999999
+Warfarin 5 mg + INR monitoring,"daily, with INR testing",,,1.0519612111164962,384.22883236030026,85.8926323603003

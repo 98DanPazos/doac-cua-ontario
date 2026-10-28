@@ -1,0 +1,14 @@
+{
+  "d_cost": -5607.908506030322,
+  "d_qaly": 0.23627039981855447,
+  "d_ly": 0.25846000617909937,
+  "result": "Apixaban dominant (less costly, more effective)",
+  "inmb_at_wtp": 17421.428496958048,
+  "apixaban_cost": 22807.84712119613,
+  "warfarin_cost": 28415.755627226452,
+  "apixaban_qaly": 7.464465055209939,
+  "warfarin_qaly": 7.228194655391385,
+  "price_cost_neutral_per_tablet": 1.4058810659349135,
+  "price_icer_equals_wtp_per_tablet": 3.507156880317871,
+  "brand_icer": 5418.587424515543
+}
